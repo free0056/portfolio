@@ -1,0 +1,30 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+  <!-- The full URl of the page including te domain -->
+      <loc>http://www.genetics.com/</loc>
+      <lastmod>2005-01-01</lastmod>
+      
+	  <changefreq>monthly</changefreq>
+	  <!-- How often you expect the page to change.
+			always
+			hourly
+			daily
+			weekly
+			monthly
+			yearly
+			never -->
+      
+	  <priority>0.8</priority>
+	  <!-- how important this page is to your whole site. 0.1 - 1.0, default is 0.5 -->
+	  
+   </url>
+   
+   <url>
+   	<loc>http://www.genetics.com/dna.html</loc>
+   </url>
+
+</urlset> 

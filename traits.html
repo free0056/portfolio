@@ -1,0 +1,19 @@
+---
+layout: news
+---
+
+<h1> Traits </h1>
+<div class="traits">
+<ul>
+	{% for post in site.posts %}
+		<li>
+			<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+			<p>{{post.meta}}</p>
+		</li>
+	{% endfor %}
+</ul>
+</div>
+
+	<footer>
+		<p class="top-link"><a href="#top">Top</a></p>
+	</footer>

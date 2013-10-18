@@ -1,0 +1,15 @@
+---
+layout: news
+---
+
+<h1> New Discoveries! </h1>
+<div class="traits">
+<ul>
+	{% for post in site.posts %}
+		<li>
+			<a href="">{{post.title}}</a>
+			<p>{{post.meta}}</p>
+		</li>
+	{% endfor %}
+</ul>
+</div>
